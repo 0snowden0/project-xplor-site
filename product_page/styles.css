@@ -4,7 +4,7 @@ body {
 	
 .bg-sec{
 	position: relative;
-	min-height: 700px;
+	min-height: 500px;
 	color: white;
 
 	}
@@ -60,4 +60,18 @@ body {
 .sep-bar-2{
 	background-color: black;
 	height:200px;
+	}
+	
+.down-link{
+	height: 62.5px;
+	width: 161.5px;
+	}
+
+.mtp{
+	margin-top: 15px;
+	}
+	
+.down-link2{
+	height:94px;
+	width: 258.3px;
 	}
