@@ -1,0 +1,63 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	}
+	
+.bg-sec{
+	position: relative;
+	min-height: 700px;
+	color: white;
+
+	}
+	
+.bg-sec-2{
+	position: relative;
+	min-height: 400px;
+	color: white;
+
+	}
+	
+	
+.background{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-image: url('manrail.jpg');
+  	background-size: cover;
+  	background-position: center 30%;
+  	filter: brightness(30%);
+  	z-index: -1;
+  	}
+  	
+.background2{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-image: url('bus.jpg'),url('boat.jpg'),url('busyellow.jpg'),url('yatch.jpg');
+  	background-color:black;
+  	background-size: 25% 300px,25% 300px,25% 300px,35% 300px;
+  	background-repeat : no-repeat;
+  	background-position: 0% 0px, 33% 0px, 65% 0px, 100% 0px;
+  	filter: brightness(30%);
+  	z-index: -1;
+	}
+
+
+	
+	
+.mt{
+	margin-top:10%;
+	} 
+	
+.sep-bar{
+	background-color: black;
+	height:200px;
+	}
+	
+.sep-bar-2{
+	background-color: black;
+	height:200px;
+	}
