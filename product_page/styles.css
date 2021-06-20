@@ -106,3 +106,22 @@ body {
   margin-right:30px;
 }
 
+.bg-sec-3{
+	background-color: black;
+	height: 500px;
+	color:white;
+	}
+hr{
+	width:20%;
+	color:#F7444E;
+	background-color:#F7444E;
+	height:5px;
+	}
+	
+.pic1{
+	height:500px;
+	width:334px;
+	}
+	
+.mto{
+	margin-top:30px;
