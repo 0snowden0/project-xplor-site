@@ -1,5 +1,9 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden; 
 	}
 	
 .bg-sec{
