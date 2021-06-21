@@ -124,8 +124,10 @@ hr{
 	}
 	
 .pic1{
-	height:500px;
-	width:334px;
+	height:;
+	width:;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);
+
 	}
 	
 .mto{
@@ -137,12 +139,12 @@ hr{
 	color:white;
 	}
 .pic2{
-	height:500px;
-	width:748px;
+	height:;
+	width:;
 	}
 .pic3{
-	height:500px;
-	width:400px;
+	height:;
+	width:;
 	}
 .logo{
 	position:absolute;
@@ -190,8 +192,45 @@ a{
 	border-color: black;
 	}
 
-.nav-link .font{
+.nav-link{
 	font-family: 'Open Sans';
+	font-weight:600;
 	}
 	
-	
+.font{
+	font-family: 'Open Sans';
+	}
+
+.overlay1{
+  position: absolute; /* Sit on top of the page content */
+  width: 520px; /* Full width (cover the whole page) */
+  height: 522px; /* Full height (cover the whole page) */
+  top: 0;
+  left: 7.8vw;
+  right:0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
+  }
+
+.overlay2{
+  position: absolute; /* Sit on top of the page content */
+  width: 520px; /* Full width (cover the whole page) */
+  height: 525px; /* Full height (cover the whole page) */
+  top: 0;
+  left: 3.8vw;
+  right:6vw;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
+  }
+  
+ .overlay3{
+  position: absolute; /* Sit on top of the page content */
+  width: 519px; /* Full width (cover the whole page) */
+  height: 522px; /* Full height (cover the whole page) */
+  top: 0;
+  left: 7.8vw;
+  right:0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
+  }
+
