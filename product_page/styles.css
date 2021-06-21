@@ -8,8 +8,9 @@ body {
 	
 .bg-sec{
 	position: relative;
-	min-height: 500px;
+	height: 93vh;
 	color: white;
+	line-height:2rem;
 
 	}
 	
@@ -27,10 +28,9 @@ body {
   	left: 0;
   	right: 0;
   	bottom: 0;
-  	background-image: url('manrail.jpg');
-  	background-size: cover;
-  	background-position: center 30%;
-  	filter: brightness(30%);
+  	background-image: linear-gradient(90.48deg, rgba(0, 0, 0, 0.88) 1.36%, rgba(76, 28, 28, 0.513333) 54.56%, rgba(182, 67, 67, 0) 129.04%), url('manrail1.png');
+  	background-size: 120%;
+  	background-repeat: no-repeat;
   	z-index: -1;
   	}
   	
@@ -107,7 +107,8 @@ body {
 }
 
 .navbar-nav > li{
-  margin-left:20px;
+  margin-left:50px;
+  margin-right:70px;
 }
 
 .bg-sec-3{
@@ -145,8 +146,8 @@ hr{
 	}
 .logo{
 	position:absolute;
-	left:83px;
-	bottom:15px;
+	left:133px;
+	bottom:10px;
 	width:13px;
 	height:15px;
 	margin-bottom:25px;
@@ -184,6 +185,13 @@ a{
 	color:#474747;
 	}
 	
-	
+.x-nav{
+	background-color: black;
+	border-color: black;
+	}
+
+.nav-link .font{
+	font-family: 'Open Sans';
+	}
 	
 	
