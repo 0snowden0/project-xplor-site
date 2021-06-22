@@ -18,8 +18,8 @@ body {
 	margin-bottom:1.2vh;
 	}
 	
-.navbar{
-	background-color: black;
+.navbar-dark{
+	background: black !important;
 	border-color: black;
 	color:white;
 	height:8vh;
