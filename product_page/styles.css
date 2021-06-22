@@ -9,7 +9,7 @@ body {
 .nav-link{
 	font-family: 'Open Sans';
 	font-weight:600;
-	font-size:13px;
+	font-size:10px;
 	}
 	
 .navbrand{
@@ -22,6 +22,7 @@ body {
 	background-color: black;
 	border-color: black;
 	color:white;
+	height:7vh;
 	}
 	
 .logo-nav{
@@ -29,12 +30,6 @@ body {
 	width:84px;
 	margin-left:7vw;
 	margin-bottom:1.2vh;
-	}
-	
-.nav-link{
-	color:white;
-	font-size:13px;
-	font-weight:600;
 	}
 	
 .navbar .navbar-nav .nav-link {
@@ -125,7 +120,8 @@ body {
 	}
 	
 .pic-phone{
-	margin-left:7vw
+	margin-left:7vw;
+	padding-right:7vw;
 	}
 	
 hr{
@@ -191,7 +187,6 @@ hr{
 .logofoot{
 	height:93.6px;
 	width:252px;
-	margin-left:7vw;
 	margin-top:3vh;
 	}
 	
@@ -216,7 +211,7 @@ a{
 @media only screen and (max-width:760px) {
 .bg-sec{
 	position: relative;
-	min-height: 500px;
+	min-height: 700px;
 	color: white;
 	line-height:2rem;
 
@@ -228,7 +223,8 @@ a{
   	right: 0;
   	bottom: 0;
   	background-image: linear-gradient(90.48deg, rgba(0, 0, 0, 0.88) 1.36%, rgba(76, 28, 28, 0.513333) 54.56%, rgba(182, 67, 67, 0) 129.04%), url('./images/manrail.png');
-  	background-size: cover;
+  	background-size: auto;
+  	background-position:0 50%;
   	background-repeat: no-repeat;
   	z-index: -1;
   	}
@@ -242,7 +238,6 @@ a{
 	letter-spacing: 0em;
 	text-align: center;
 	}
-
 	
 	
 	
