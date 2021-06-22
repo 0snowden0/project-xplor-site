@@ -213,7 +213,7 @@ a{
 	line-height:44px;
 	}
 	
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:1060px) {
 .bg-sec{
 	position: relative;
 	min-height: 700px;
