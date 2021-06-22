@@ -214,6 +214,15 @@ a{
 	}
 	
 @media only screen and (max-width:1060px) {
+
+.navbar.expanded {
+      background: black !important;
+    }
+    
+ .navbar.expanded .navbar-collapse {
+      background: black !important;
+    }
+
 .bg-sec{
 	position: relative;
 	min-height: 700px;
@@ -247,6 +256,9 @@ html{
      padding:0;
     overflow-x:hidden;
     }
+    
+.showcase{
+	margin-top:3rem;
     
 
 }
