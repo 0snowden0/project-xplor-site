@@ -149,8 +149,12 @@ hr{
 	
 .img-row{
 	position: relative;
-	min-height: 400px;
+	min-height: 300px;
 	color: white;
+	}
+	
+.imgrow{
+	margin-top:14vh;
 	}
 	
 .background02{
@@ -216,6 +220,14 @@ a{
 @media only screen and (max-width:1060px) {
 
 
+.logofoot{
+	height:93.6px;
+	width:252px;
+	margin-top:3vh;
+	margin-bottom:2rem;
+	}
+
+
 .download-links1{
 	margin-left:0.5rem;
 	border-radius:15px;
@@ -246,7 +258,7 @@ a{
   	bottom: 0;
   	background-image: linear-gradient(90.48deg, rgba(0, 0, 0, 0.88) 1.36%, rgba(76, 28, 28, 0.513333) 54.56%, rgba(182, 67, 67, 0) 129.04%), url('./images/manrail.png');
   	background-size: cover;
-  	background-position: center;
+  	background-position: 55% 50%;
   	background-repeat: no-repeat;
   	z-index: -1;
   	}
@@ -286,21 +298,22 @@ html{
 	margin-right:7vw;
 	}
 	
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
 .navbar{
 	height:100px
 	}
 
 	.download-links1{
-	margin-left:0.5rem;
 	border-radius:15px;
 	}
 	
 	.download-links{
-	border-radius:20px;
+	border-radius:30px;
 	padding-bottom:30px;
 	padding-right:30px;
 	}
+	
+
 	}
 	
 
