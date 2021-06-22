@@ -6,6 +6,83 @@ body {
      overflow-x: hidden; 
 	}
 	
+.nav-link{
+	font-family: 'Open Sans';
+	font-weight:600;
+	}
+	
+.navbrand{
+	color:white;
+	margin-left:7vw;
+	margin-bottom:1.2vh;
+	}
+	
+.navbar{
+	background-color: black;
+	border-color: black;
+	color:white;
+	}
+	
+.logo-nav{
+	height:31.2px;
+	width:84px;
+	margin-left:7vw;
+	margin-bottom:1.2vh;
+	}
+	
+.nav-link{
+	color:white;
+	font-size:90%;
+	}
+	
+.navbar .navbar-nav .nav-link {
+ 	position:relative;
+	color: white;
+	font-size: 1.1em;
+	}
+.navbar .navbar-nav .nav-link:hover {
+	color: white;
+	}
+	
+.navbar .navbar-nav .nav-link::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #F7444E;
+	color: transparent;
+	width: 0%;
+ 	content: '.';
+	height: 3px;
+	transition: all 0.5s;
+	}
+.navbar .navbar-nav .nav-link:hover::after {
+	width: 50%;
+	}
+	
+.navbar-nav > li{
+	margin-left:50px;
+	margin-right:7vw;
+}
+
+.showcase{
+	margin-left:7vw;
+	margin-top:20vh;
+	}
+	
+.background{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-image: linear-gradient(90.48deg, rgba(0, 0, 0, 0.88) 1.36%, rgba(76, 28, 28, 0.513333) 54.56%, rgba(182, 67, 67, 0) 129.04%), url('./images/manrail.png');
+  	background-size: 120%;
+  	background-repeat: no-repeat;
+  	z-index: -1;
+  	}
+  	
 .bg-sec{
 	position: relative;
 	height: 93vh;
@@ -14,33 +91,91 @@ body {
 
 	}
 	
-.bg-sec-2{
+#showcaseheading{
+	line-height:4rem;
+	font-weight:700;
+	}
+	
+.font{
+	margin-top:3vh;
+	font-family: 'Open Sans';
+	}
+	
+.showcase-container{
+	margin-left:0;
+	margin-right:0;
+	}
+	
+.download-links{
+	border-radius:15px;
+	}
+	
+.sep-bar-whyridewithus{
+	background-color: black;
+	height:200px;
+	}
+	
+.content-sec{
+	background-color: black;
+	min-height: 500px;
+	color:white;
+	padding-left:0;
+	}
+	
+.pic-phone{
+	margin-left:7vw
+	}
+	
+hr{
+	width:20%;
+	color:#F7444E;
+	background-color:#F7444E;
+	height:5px;
+	}
+	
+.content-box{
+	margin-left:100px;
+	}
+	
+.overlay1{
+	position: absolute;
+	width: 520px;
+	top: 0;
+	left: 7.9vw;
+	right:0;
+	bottom: 0;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);
+	}
+  
+.pic-peace{
+	margin-left:3vw;
+	margin-right:7vw;
+	}
+	
+.overlay2{
+	position: absolute; 
+	width:520px; 
+	height: ; 
+	top: 0;
+	left: 3.8vw;
+	right:6vw;
+	bottom: 0;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);
+	}
+  
+.img-row{
 	position: relative;
 	min-height: 400px;
 	color: white;
-
 	}
 	
-	
-.background{
+.background02{
 	position: absolute;
   	top: 0;
   	left: 0;
   	right: 0;
   	bottom: 0;
-  	background-image: linear-gradient(90.48deg, rgba(0, 0, 0, 0.88) 1.36%, rgba(76, 28, 28, 0.513333) 54.56%, rgba(182, 67, 67, 0) 129.04%), url('manrail1.png');
-  	background-size: 120%;
-  	background-repeat: no-repeat;
-  	z-index: -1;
-  	}
-  	
-.background2{
-	position: absolute;
-  	top: 0;
-  	left: 0;
-  	right: 0;
-  	bottom: 0;
-  	background-image: url('bus.jpg'),url('boat.jpg'),url('busyellow.jpg'),url('yatch.jpg');
+  	background-image: url('./images/bus.jpg'),url('./images/boat.jpg'),url('./images/busyellow.jpg'),url('./images/yatch.jpg');
   	background-color:black;
   	background-size: 25% 300px,25% 300px,25% 300px,35% 300px;
   	background-repeat : no-repeat;
@@ -49,111 +184,9 @@ body {
   	z-index: -1;
 	}
 
-
-	
-	
-.mt{
-	margin-top:10%;
-	} 
-	
-.sep-bar{
+.partner-bar{
 	background-color: black;
 	height:200px;
-	}
-	
-.sep-bar-2{
-	background-color: black;
-	height:200px;
-	}
-	
-.down-link{
-	height: 62.5px;
-	width: 161.5px;
-	}
-
-.mtp{
-	margin-top: 15px;
-	}
-	
-.down-link2{
-	height:94px;
-	width: 258.3px;
-	}
-	
-.navbar .navbar-nav .nav-link {
-  position:relative;
-  color: #000000;
-  font-size: 1.1em;
-  position: relative;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: #F7444E;
-}
-.navbar .navbar-nav .nav-link::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #F7444E;
-  color: transparent;
-  width: 0%;
-  content: '.';
-  height: 3px;
-  transition: all 0.5s;
-}
-.navbar .navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-
-.navbar-nav > li{
-  margin-left:50px;
-  margin-right:70px;
-}
-
-.bg-sec-3{
-	background-color: black;
-	min-height: 500px;
-	color:white;
-	}
-hr{
-	width:20%;
-	color:#F7444E;
-	background-color:#F7444E;
-	height:5px;
-	}
-	
-.pic1{
-	height:;
-	width:;
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);
-
-	}
-	
-.mto{
-	margin-top:30px;
-	}
-.bg-sec-4{
-	background-color: black;
-	min-height: 550px;
-	color:white;
-	}
-.pic2{
-	height:;
-	width:;
-	}
-.pic3{
-	height:;
-	width:;
-	}
-.logo{
-	position:absolute;
-	left:133px;
-	bottom:10px;
-	width:13px;
-	height:15px;
-	margin-bottom:25px;
-	margin-right:15px;
 	}
 	
 .metrologo{
@@ -161,76 +194,64 @@ hr{
 	width:200px;
 	}
 	
+.bg-end{
+	height:25vh;
+	background-color:black;
+	}
+	
 .footer{
 	min-height:300px;
-	background-color:#242526;
-	color:white;
-	
-	
-	}
-.bg-sec-5{
-	background-color: black;
-	height: 400px;
+	background-color:black;
 	color:white;
 	}
-.xplore{
-	margin-top:80px;
-	}
+	
 .logofoot{
-	position:absolute;
-	left:60%;
-	bottom:50%;
-	width:26px;
-	height:30px;
+	height:93.6px;
+	width:252px;
+	margin-left:7vw;
+	margin-top:3vh;
 	}
+	
 a{
 	color:#474747;
 	}
 	
-.x-nav{
-	background-color: black;
-	border-color: black;
-	}
-
-.nav-link{
-	font-family: 'Open Sans';
-	font-weight:600;
+.inform{
+	line-height:2rem;
 	}
 	
-.font{
-	font-family: 'Open Sans';
-	}
-
-.overlay1{
-  position: absolute; /* Sit on top of the page content */
-  width: 520px; /* Full width (cover the whole page) */
-  height: 522px; /* Full height (cover the whole page) */
-  top: 0;
-  left: 7.8vw;
-  right:0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
-  }
-
-.overlay2{
-  position: absolute; /* Sit on top of the page content */
-  width: 520px; /* Full width (cover the whole page) */
-  height: 525px; /* Full height (cover the whole page) */
-  top: 0;
-  left: 3.8vw;
-  right:6vw;
-  bottom: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
-  }
-  
- .overlay3{
-  position: absolute; /* Sit on top of the page content */
-  width: 519px; /* Full width (cover the whole page) */
-  height: 522px; /* Full height (cover the whole page) */
-  top: 0;
-  left: 7.8vw;
-  right:0;
-  bottom: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);/* Black background with opacity */
-  }
-
+.social{
+	height:20px;
+	width:20px;
+	margin-right:20px;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
