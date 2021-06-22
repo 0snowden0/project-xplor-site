@@ -32,6 +32,7 @@ body {
 	margin-bottom:1.2vh;
 	}
 	
+	
 .navbar .navbar-nav .nav-link {
  	position:relative;
 	color: white;
@@ -63,6 +64,7 @@ body {
 	margin-right:7vw;
 }
 
+
 .showcase{
 	margin-left:7vw;
 	margin-top:20vh;
@@ -86,6 +88,10 @@ body {
 	color: white;
 	line-height:2rem;
 
+	}
+	
+.navbar-collapse .collapse{
+	background-color:black;
 	}
 	
 #showcaseheading{
