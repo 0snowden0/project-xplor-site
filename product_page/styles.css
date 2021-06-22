@@ -299,10 +299,6 @@ html{
 	}
 	
 @media only screen and (max-width:450px) {
-.navbar{
-	height:100px
-	}
-
 	.download-links1{
 	border-radius:15px;
 	}
