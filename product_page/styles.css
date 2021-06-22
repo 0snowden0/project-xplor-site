@@ -290,14 +290,16 @@ html{
 .navbar{
 	height:100px
 	}
-	
-.downlinks1{
-	margin-left:3vw;
-	border-radius:15px;
-	}
+
 	.download-links1{
 	margin-left:0.5rem;
 	border-radius:15px;
+	}
+	
+	.download-links{
+	border-radius:20px;
+	padding-bottom:30px;
+	padding-right:30px;
 	}
 	}
 	
