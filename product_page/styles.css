@@ -107,6 +107,11 @@ body {
 	border-radius:15px;
 	}
 	
+.downlinks1{
+	margin-left:5vw;
+	border-radius:15px;
+	}
+	
 .sep-bar-whyridewithus{
 	background-color: black;
 	height:200px;
@@ -242,6 +247,8 @@ html{
      padding:0;
     overflow-x:hidden;
     }
+    
+
 }
 
 .bottomend{
@@ -262,6 +269,12 @@ html{
 @media only screen and (max-width:400px) {
 .navbar{
 	height:100px
+	}
+	
+.downlinks1{
+	margin-left:3vw;
+	border-radius:15px;
+	}
 	}
 	
 
