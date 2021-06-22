@@ -116,10 +116,10 @@ body {
 	}
 	
 .content-sec{
+	position:relative;
 	background-color: black;
 	min-height: 500px;
 	color:white;
-	padding-left:0;
 	}
 	
 .pic-phone{
@@ -141,7 +141,7 @@ hr{
 	position: absolute;
 	width: 520px;
 	top: 0;
-	left: 7vw;
+	left: 6vw;
 	right:0;
 	bottom: 0;
 	background: linear-gradient(90deg, rgba(0, 0, 0, 0.13) 0%, rgba(247, 68, 78, 0.5) 212.04%);
