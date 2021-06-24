@@ -128,11 +128,17 @@ body {
 	}
 	
 .content-sec{
-	position:relative;
 	background-color: black;
 	min-height: 500px;
 	color:white;
 	}
+	
+.reverse-sec{
+	background-color: black;
+	min-height: 500px;
+	color:white;
+	}
+	
 	
 .pic-phone{
 	margin-left:7vw;
@@ -320,6 +326,10 @@ html{
 	}
 	
 @media only screen and (max-width:500px) {
+
+	.reverse-sec{
+		flex-direction: column-reverse;
+		}
 
 	.download-links1{
 	border-radius:15px;
