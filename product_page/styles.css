@@ -140,6 +140,7 @@ body {
 	}
 	
 	
+	
 .pic-phone{
 	margin-left:7vw;
 	padding-right:7vw;
@@ -150,6 +151,7 @@ hr{
 	color:#F7444E;
 	background-color:#F7444E;
 	height:5px;
+	margin-left:0 auto;
 	}
 	
 .content-box{
@@ -168,6 +170,7 @@ hr{
 	
 .imgrow{
 	margin-top:14vh;
+	font-size:38px;
 	}
 	
 .background02{
@@ -188,6 +191,11 @@ hr{
 .partner-bar{
 	background-color: black;
 	height:200px;
+	}
+
+.pic3{
+	margin-left:7vw;
+	padding-right:7vw;
 	}
 	
 .metrologo{
@@ -239,6 +247,15 @@ a{
 .para{
 	line-height:44px;
 	}
+	
+.horizontal-rule-left{
+	margin-left:0;
+	}
+	
+.horizontal-rule-right{
+	margin-right:0;
+	}
+
 	
 @media only screen and (max-width:1060px) {
 
@@ -306,6 +323,7 @@ html{
     
 .showcase{
 	margin-top:3rem;
+	}
     
 
 }
@@ -324,11 +342,17 @@ html{
 	padding-right:7vw;
 	margin-right:7vw;
 	}
+
 	
 @media only screen and (max-width:500px) {
 
 	.reverse-sec{
 		flex-direction: column-reverse;
+		}
+		
+	.showcase{
+		margin-left:4vw;
+		margin-right:4vw;
 		}
 
 	.download-links1{
@@ -353,12 +377,18 @@ html{
 		}
 	.heading-peace{
 		padding-left:2rem;
-		text-align:right;
+		text-align:center;
 		}
 		
 	.pic-phone{
-  	margin-left:1.5rem;
+  	margin-left:1rem;
   	}
+  	
+  	.pic3{
+  		margin-right:2rem;
+  		margin-left:0.9rem;
+  		}
+  		
   	
   	.picpara{
   		padding-bottom:30px;
@@ -367,14 +397,50 @@ html{
   	.imgrow{
   		margin-top:14vh;
   		text-align:center;
+  		
   		}
   		
   	hr{
-  		text-align:center;
   		width:20%;
 		color:#F7444E;
 		background-color:#F7444E;
 		height:5px;
+  		}
+  		
+  	.horizontal-rule-left{
+	margin-left: 5.5rem;
+	margin-right: 0;
+	}
+	
+.horizontal-rule-right{
+	margin-left:9rem;
+	margin-right: 0;
+	}
+	
+	.img-row{
+	position: relative;
+	min-height: 200px;
+	color:white;
+	}
+	.background02{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-image: url('./images/bus1.png'),url('./images/boat1.png'),url('./images/busyellow1.png'),url('./images/yatch1.png');
+  	background-color:black;
+  	background-size: 25% 200px,25% 200px,25% 200px,35% 200px;
+  	background-repeat : no-repeat;
+  	background-position: 0% 0px, 33% 0px, 65% 0px, 100% 0px;
+  	filter: brightness(30%);
+  	z-index: -1;
+	}
+	
+	.imgrow{
+  		margin-top:5rem;
+  		text-align:center;
+  		font-size:21px;
   		}
 	
 		
