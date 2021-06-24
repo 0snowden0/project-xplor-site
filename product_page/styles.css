@@ -408,7 +408,7 @@ html{
   		}
   		
   	.horizontal-rule-left{
-	margin-left: 5.5rem;
+	margin-left: 5rem;
 	margin-right: 0;
 	}
 	
@@ -446,7 +446,9 @@ html{
   	#chimney-heading{
   		margin-left:-30px;
   		}
-	
+	#phone-heading{
+		margin-left:-30px;
+		}
 		
 
 	}
