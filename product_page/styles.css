@@ -336,6 +336,7 @@ html{
 	
 	.content-box{
 		text-align:center;
+		margin-left:5.5rem;
 		}
 		
 	.peace-cont{
@@ -347,11 +348,8 @@ html{
 		text-align:right;
 		}
 		
-	.pic3 .pic-phone{
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+	.pic-phone{
+  	margin-left:1.5rem;
   	}
   	
   	.picpara{
