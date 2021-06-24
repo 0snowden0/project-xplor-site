@@ -152,9 +152,6 @@ hr{
 	
   
 .pic-peace{
-	margin-left:3vw;
-	margin-right:7vw;
-	padding-right:7vw;
 	}
 	
 .img-row{
@@ -212,6 +209,7 @@ hr{
 	
 .peace-cont{
 	text-align:right;
+	padding-right:2rem;
 	}
 	
 .heading-peace{
