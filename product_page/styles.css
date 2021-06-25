@@ -58,7 +58,7 @@ html{
 	width: 50%;
 	}
 	
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:800px) {
 .navbar .navbar-nav .nav-link::after {
 	position: absolute;
 	bottom: 0;
