@@ -5,10 +5,7 @@ body {
      padding: 0px;
      overflow-x: hidden; 
 	}
-	
-#home #ridewithus #partners{
-	font-size:15px;
-	}
+
 	
 .nav-link{
 	font-family: 'Open Sans';
@@ -31,7 +28,7 @@ body {
 .navbar .navbar-nav .nav-link {
  	position:relative;
 	color: white;
-	font-size: 1.1em;
+	font-size: 1rem;
 	}
 .navbar .navbar-nav .nav-link:hover {
 	color: white;
@@ -82,7 +79,7 @@ body {
 
 .showcase{
 	margin-left:7vw;
-	margin-top:20vh;
+	margin-top:7.5rem;
 	}
 	
 .background{
@@ -268,7 +265,7 @@ a{
 	}
 
 	
-@media only screen and (max-width:1060px) {
+@media only screen and (max-width:1300px) {
 
 .last-row{
 	padding-bottom:3.5vh;
@@ -406,7 +403,7 @@ html{
   		}
   		
   	.imgrow{
-  		margin-top:14vh;
+  		margin-top:3rem;
   		text-align:center;
   		
   		}
