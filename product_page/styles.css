@@ -213,6 +213,14 @@ html{
 	padding-left:6vw;
 	padding-right:8vw;
 	}
+	
+.content-box{
+	padding-left:2rem;
+	}
+
+.peace-content-box{
+	padding-right:2rem;
+	}
 }
 
 .para{
