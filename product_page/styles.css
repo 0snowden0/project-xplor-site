@@ -528,12 +528,13 @@ hr{
   	
 .download-link-appstore{
 	border-radius:15px;
+	
 	}
 	
 .download-link-playstore{
 	border-radius:15px;
 	margin-bottom:30px;
-	margin-right:30px;
+	margin-right:20px;
 	margin-left:5px;
 	}
 }
