@@ -144,7 +144,7 @@ html{
 	}
 
 .showcase{
-	margin-top:7.5rem;
+	padding-top:7.5rem;
 	}
 	
 #showcaseheading{
@@ -548,7 +548,7 @@ hr{
 	}
 	
 .showcase{
-	margin-top:3.5rem;
+	padding-top:3.5rem;
 	}
 }
 /* Media Query set 2 End */
