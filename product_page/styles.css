@@ -1,3 +1,4 @@
+/* Body And Html Start*/
 body {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
@@ -12,13 +13,29 @@ html{
      padding:0;
     overflow-x:hidden;
     }
+/* Body And Html Start*/
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navbar Start*/	
 .nav-link{
 	font-family: 'Open Sans';
 	font-weight:600;
 	font-size:10px;
 	}
+	
 .custom-nav{	
 	background: black !important ;
 	color:white;
@@ -37,6 +54,7 @@ html{
 	color: white;
 	font-size: 1rem;
 	}
+	
 .navbar .navbar-nav .nav-link:hover {
 	color: white;
 	}
@@ -54,11 +72,13 @@ html{
 	height: 3px;
 	transition: all 0.5s;
 	}
+	
 .navbar .navbar-nav .nav-link:hover::after {
 	width: 50%;
 	}
 	
 @media only screen and (max-width:800px) {
+
 .navbar .navbar-nav .nav-link::after {
 	position: absolute;
 	bottom: 0;
@@ -76,17 +96,34 @@ html{
 	.navbar .navbar-nav .nav-link:hover::after {
 	width: 20%;
 	}
-	}
+}
 	
 .navbar-nav > li{
 	margin-left:50px;
 	margin-right:7vw;
-}
+	}
+/*Navbar End*/
 
 
-.showcase{
-	margin-left:7vw;
-	margin-top:7.5rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Showcase Start*/
+.bg-sec{
+	position: relative;
+	height: 95vh;
+	color: white;
+	line-height:2rem;
 	}
 	
 .background{
@@ -101,16 +138,13 @@ html{
   	z-index: -1;
   	}
   	
-.bg-sec{
-	position: relative;
-	height: 92vh;
-	color: white;
-	line-height:2rem;
-
+.showcase-container{
+	margin-left:7vw;
+	margin-right:7vw;
 	}
-	
-.navbar-collapse .collapse{
-	background-color:black;
+
+.showcase{
+	margin-top:7.5rem;
 	}
 	
 #showcaseheading{
@@ -118,74 +152,156 @@ html{
 	font-weight:700;
 	}
 	
-.font{
+.showcase-content{
 	margin-top:3vh;
 	font-family: 'Open Sans';
 	}
 	
-.showcase-container{
-	margin-left:0;
-	margin-right:0;
-	}
-	
-.download-links{
+.download-link-playstore{
 	border-radius:15px;
 	}
 	
-.download-links1{
+.download-links-appstore{
 	margin-left:5vw;
 	border-radius:15px;
 	}
-	
+/*Showcase End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Why Ride With Us Section Start*/	
 .sep-bar-whyridewithus{
 	background-color: black;
 	height:200px;
 	}
-	
+/*Why Ride With Us End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Content Section of Phone Start*/	
 .content-sec{
 	background-color: black;
 	min-height: 500px;
 	color:white;
 	}
+
+@media only screen and (min-width:500px) {
+.content{
+	padding-left:6vw;
+	padding-right:8vw;
+	}
+}
+
+.para{
+	line-height:44px;
+	}
+/*Content Section of Phone End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Horizontal Rules Start*/
+hr{
+	width:20%;
+	background-color:#F7444E;
+	height:5px;
+	}
 	
+@media only screen and (min-width:500px) {
+.horizontal-rule-left{
+	margin-left:0;
+	}
+	
+.horizontal-rule-right{
+	margin-right:0;
+	}
+}
+/*Horizontal Rules End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Peace Content Start*/
 .reverse-sec{
 	background-color: black;
 	min-height: 500px;
 	color:white;
 	}
 	
-	
-	
-.pic-phone{
-	margin-left:7vw;
-	padding-right:7vw;
-	}
-	
-hr{
-	width:20%;
-	color:#F7444E;
-	background-color:#F7444E;
-	height:5px;
-	margin-left:0 auto;
-	}
-	
-.content-box{
-	margin-left:100px;
-	}
-	
-  
-.pic-peace{
-	}
-	
+@media only screen and (min-width:500px) {
+.peace-content-box{
+	text-align:right;
+		}
+}
+/*Peace Content End*/
+
+
+
+
+
+/*The chomney content has the same css as for the phone content*/
+
+
+
+
+
+.bg-end{
+	height:25vh;
+	background-color:black;
+	}	
+
+
+
+
+
+/*Row of Image content start*/
 .img-row{
 	position: relative;
 	min-height: 300px;
 	color: white;
-	}
-	
-.imgrow{
-	margin-top:14vh;
-	font-size:38px;
 	}
 	
 .background02{
@@ -202,27 +318,56 @@ hr{
   	filter: brightness(30%);
   	z-index: -1;
 	}
+	
+.imgrow{
+	margin-top:14vh;
+	font-size:38px;
+	}
+/*Row of Image content End*/
 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+/* List of Partners Start */
 .partner-bar{
 	background-color: black;
 	height:200px;
 	}
-
-.pic3{
-	margin-left:7vw;
-	padding-right:7vw;
-	}
 	
+#partners{
+	color:white;
+	}
+
 .metrologo{
 	height:110px;
 	width:200px;
 	}
-	
-.bg-end{
-	height:25vh;
-	background-color:black;
-	}
-	
+/* List of Partners End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start */
 .footer{
 	min-height:300px;
 	background-color:black;
@@ -236,19 +381,10 @@ hr{
 	margin-top:3vh;
 	}
 	
-.peace-cont{
-	text-align:right;
-	padding-right:9rem;
-		}
-	
-.heading-peace{
-	text-align:right;
-	}
-	
 a{
 	color:#474747;
 	}
-	
+
 .inform{
 	line-height:2rem;
 	}
@@ -257,21 +393,32 @@ a{
 	height:20px;
 	width:20px;
 	margin-right:20px;
-	}	
-	
-.para{
-	line-height:44px;
 	}
 	
-.horizontal-rule-left{
-	margin-left:0;
+.bottomend{
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: center;
 	}
-	
-.horizontal-rule-right{
-	margin-right:0;
-	}
+/* Footer End */
 
 	
+
+	
+
+
+
+
+
+
+
+
+
+
+/* Media Query set 1 Start */	
 @media only screen and (max-width:1300px) {
 
 .last-row{
@@ -286,29 +433,13 @@ a{
 	margin-bottom:2rem;
 	}
 
-
-.download-links1{
-	margin-left:0.5rem;
-	border-radius:15px;
-	}
-
-
-
-.navbar.expanded {
-      background: black !important;
-    }
-    
- .navbar.expanded .navbar-collapse {
-      background: black !important;
-    }
-
 .bg-sec{
 	position: relative;
 	min-height: 700px;
 	color: white;
 	line-height:2rem;
-
 	}
+
 .background{
 	position: absolute;
   	top: 0;
@@ -320,57 +451,44 @@ a{
   	background-position: 55% 50%;
   	background-repeat: no-repeat;
   	z-index: -1;
-  	}
-body {
-	font-family: 'Montserrat', sans-serif;
-	width: 100%;
-     margin:0;
-     padding:0;
-    overflow-x:hidden;
 	}
-	
-html{	
-	width: 100%;
-     margin:0;
-     padding:0;
-    overflow-x:hidden;
-    }
-    
-.showcase{
-	margin-top:3rem;
-	}
-    
-
+/*If overflow comes add margin here*/
 }
+/* Media Query set 1 End */
 
-.bottomend{
-	font-size: 11px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 13px;
-	letter-spacing: 0em;
-	text-align: center;
-	}
-	
-.pic3{
-	margin-left:7vw;
-	padding-right:7vw;
-	margin-right:7vw;
-	}
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query set 2 Start */
 @media only screen and (max-width:500px) {
-
-	.reverse-sec{
-		flex-direction: column-reverse;
+.content-box{
+		text-align:center;
 		}
+
+.peace-content-box{
+	text-align:center;
+		}
+
+.reverse-sec{
+		flex-direction: column-reverse;
+		}	
 		
-	.showcase{
+.showcase{
 		margin-left:4vw;
 		margin-right:4vw;
 		}
 
-	.download-links1{
+	/*.download-links1{
 	border-radius:15px;
 	}
 	
@@ -379,65 +497,25 @@ html{
 	margin-bottom:30px;
 	margin-right:30px;
 	margin-left:5px;
-	}
-	
-	.content-box{
-		text-align:center;
-		margin-left:5.5rem;
-		}
-		
-	.peace-cont{
-		margin-left:40px;
-		text-align:center;
-		}
-	.heading-peace{
-		padding-left:2rem;
-		text-align:center;
-		}
-		
-	.pic-phone{
-  	margin-left:1rem;
+	}*/
+.imgrow{
+  	margin-top:3rem;
+  	text-align:center;
   	}
-  	
-  	.pic3{
-  		margin-right:2rem;
-  		margin-left:0.9rem;
-  		}
   		
-  	
-  	.picpara{
-  		padding-bottom:30px;
-  		}
-  		
-  	.imgrow{
-  		margin-top:3rem;
-  		text-align:center;
-  		
-  		}
-  		
-  	hr{
-  		width:20%;
-		color:#F7444E;
-		background-color:#F7444E;
-		height:5px;
-  		}
-  		
-  	.horizontal-rule-left{
-	margin-left: 5rem;
-	margin-right: 0;
-	}
+hr{
+  	width:20%;
+	color:#F7444E;
+	background-color:#F7444E;
+	height:5px;
+  	}
 	
-.horizontal-rule-right{
-	margin-left:8.5rem;
-	margin-right:auto;
-	}
-	
-	.img-row{
+.img-row{
 	position: relative;
 	min-height: 200px;
 	color:white;
 	}
-	.background02{
+.background02{
 	position: absolute;
   	top: 0;
   	left: 0;
@@ -452,22 +530,12 @@ html{
   	z-index: -1;
 	}
 	
-	.imgrow{
-  		margin-top:5rem;
-  		text-align:center;
-  		font-size:21px;
-  		}
-  		
-  	#chimney-heading{
-  		margin-left:-35px;
-  		}
-	#phone-heading{
-		margin-left:-30px;
-		}
-	
-		
-
-	}
+.imgrow{
+  	margin-top:5rem;
+  	text-align:center;
+  	font-size:21px;
+  	}
+}
 	
 
 	
